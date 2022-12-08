@@ -9,6 +9,8 @@ const headerImage = document.createElement('div');
 const content = document.createElement('div');
 const footer = document.createElement('div');
 
+const logoImageUrl = '<img src="images/fossielshopLogo.png" alt="headerimage">';
+
 header.classList.add('header');
 headerLeft.classList.add('headerLeft');
 headerLogo.classList.add('headerLogo');
@@ -19,8 +21,9 @@ headerImage.classList.add('headerImage');
 content.classList.add('content');
 footer.classList.add('footer');
 
-headerLeft.innerText = "headerLeft";
-headerLogo.innerText = "headerLogo";
+//headerLeft.innerText = "headerLeft";
+//headerLogo.innerText = "headerLogo";
+headerLogo.innerHTML = logoImageUrl;
 headerMenuLeft.innerText = "headerMenuLeft";
 headerSearch.innerText = "headerSearch";
 headerMenuRight.innerText = "headerMenuRight";
