@@ -1,76 +1,71 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+h3{
+    color: #d8dad9;
+
+}
+
+.container{
+    min-width: 1280px;
+    min-height: 960px;
+
+    display: flex;
+    flex-direction: row;
 
 
+}
 
+.nav{
+    background-color: #1f1e1f;
+    width: 325px;
+    height:auto;
+
+    display: flex;
+    flex-direction: column;
+}
 
 .header{
-    border: 1px solid black; 
-    display: flex;
-    justify-content:space-between;
-    flex: 1;
-    width: 1024px;
-    height: 200px;
+    background-color: #d8dad9;
+    min-width: 955px;
+    height: 600px;
+
 }
 
-.headerLeft{
-    border: 1px solid black;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content:space-between;
+.header-top{
+    background-color: #d8dad9;
+
+    display:flex;
+    justify-content: right;
+
 }
 
-.headerLogo{
-    flex: 1;
-    border: 1px solid black;
-}
-
-.headerMenuLeft{
-    display: flex;
-    flex: 1;
-    border: 1px solid black;
-}
-
-.headerSearch{
-    flex: 1;
-    align-self: center;
-    text-align: center;
-    border: 1px solid black;
-}
-
-.headerMenuRight{
-    flex: 1;
-    text-align: right;
-    border: 1px solid black;
-}
+.header-bottom{
+    background-color: #d8dad9;
 
 
-
-
-
-
-.headerImage{
-    border: 1px solid black;
-    width: 1024px;
-    height: 200px;
 }
 
 .content{
-    border: 1px solid black;
-    width: 1024px;
-    min-height: 400px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #d8dad9;
+    height:fit-content;
+
+
 }
 
 .footer{
-    border: 1px solid black;
-    width: 1024px;
-    height: 50px;
-    text-align: center;
+    background-color: #d8dad9;
+
+    display:flex;
+    justify-content: center;
+    
 }
